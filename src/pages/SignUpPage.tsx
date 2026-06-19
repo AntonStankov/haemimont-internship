@@ -42,7 +42,7 @@ import { z } from "zod";
 const validationSchema = z
 	.object({
 		name: z.string().min(1, { message: "Full name is required" }),
-		email: z.string().min(1, { message: "Email is required cd/cd from B3 hehe" }).email({
+		email: z.string().min(1, { message: "Email is required cd/cd from B3 hehehe" }).email({
 			message: "Must be a valid email",
 		}),
 		password: z
