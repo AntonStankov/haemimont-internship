@@ -38,7 +38,7 @@ const schema = z.object({
 	}),
 	password: z
 		.string()
-		.min(8, { message: "Password must be atleast 8 characters" })
+		.min(8, { message: "Password must be atleast 8 characters and this is CI/CD from B3 Platform" })
 		.max(72, { message: "Password can be 72 characters ata most" }),
 });
 
